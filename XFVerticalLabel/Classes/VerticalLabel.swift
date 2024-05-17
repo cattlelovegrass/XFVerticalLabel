@@ -28,6 +28,7 @@ public struct VerticalLabel {
     }
 }
 
+@available(iOS 13.0, *)
 extension VerticalLabel: UIViewRepresentable {
     public func makeUIView(context: Context) -> XFVerticalLabel {
         let label = XFVerticalLabel()
@@ -52,6 +53,7 @@ extension VerticalLabel: UIViewRepresentable {
     
 }
 
+@available(iOS 13.0, *)
 struct VerticalLabel_Previews: PreviewProvider {
     static var previews: some View {
         VerticalLabel(text: "今天天气不错，It is a good day today", font: .systemFont(ofSize: 16), textColor: .red,lineSpace: 5,wordSpace: 2)
