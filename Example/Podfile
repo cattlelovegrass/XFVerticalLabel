@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XFVerticalLabel_Tests' do
+  pod 'XFVerticalLabel', :path => '../'
+  
+  
+end
